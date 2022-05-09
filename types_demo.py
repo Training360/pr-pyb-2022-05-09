@@ -1,3 +1,4 @@
+# v2
 # Python: dinamikus típusú programozási nyelv
 # A változó típusa nem állandó
 age = 30
