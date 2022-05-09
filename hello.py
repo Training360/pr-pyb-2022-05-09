@@ -1,4 +1,4 @@
-# v5
+# v6
 # Első Python programom
 #
 # szintaxis: nyelvtani szabályok
