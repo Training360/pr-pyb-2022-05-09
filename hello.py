@@ -1,4 +1,6 @@
-# Első Python programom 1.
+
+# v2
+# Első Python programom
 #
 # szintaxis: nyelvtani szabályok
 # szemantika: jelentés
