@@ -1,5 +1,5 @@
 
-# v2
+# v3
 # Első Python programom
 #
 # szintaxis: nyelvtani szabályok
