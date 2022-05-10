@@ -42,3 +42,23 @@ for number in numbers:
     if number > 0:
         sum += number
 print(sum)
+
+# Hozz létre egy listát, mely pozitív és negatív számokat is tartalmaz!
+# Add össze a számok abszolútértékét! 
+numbers = [-1, 0, +1, -1, 0, +1, -1]
+sum = 0
+for number in numbers:
+    if number < 0:
+        sum += -number
+    else:
+        sum += number
+print(sum)
+
+
+for i in range(100_000):
+    print(i)
+
+i = 0
+while i < 100_000:
+    print(i)
+    i += 1
