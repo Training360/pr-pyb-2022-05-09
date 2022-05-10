@@ -1,5 +1,5 @@
 # DRY - don't repeat yourself
-for i in range(1):
+for i in range(10):
     print(i, "Trainer")
     print("Törzs")
 print("End")
