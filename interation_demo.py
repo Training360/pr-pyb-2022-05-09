@@ -18,3 +18,17 @@ for i in range(2 * 4):
 
 for e in [3, 9, 11, 2, 8]:
     print(e)
+
+for i in range(10):
+    print(i)
+
+for i in range(5, 10):
+    print(i)
+
+for i in range(10, 100, 5):
+    print(i)
+
+i = 10
+while i < 100:
+    print(i)
+    i += 5
