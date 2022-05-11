@@ -68,3 +68,8 @@ Lokális repo és távoli összekötése:
 ```
 git remote add origin https://github.com/Training360/pr-pyb-2022-05-09
 ```
+
+# Unit tesztek
+
+1. Létre kell hozni egy `requirements.txt` fájt.
+2. Következő parancsot kell kiadni: `pip install -r requirements.txt`

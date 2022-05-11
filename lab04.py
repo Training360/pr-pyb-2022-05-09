@@ -24,11 +24,11 @@ def get_rectangle_area(a, b):
 # Írjatok egy olyan absolute() nevű függvényt, ami visszaadja a 
 # paraméterként megadott szám abszolútértékét!
 
-def absolute(number):
-    if number >= 0:
-        return number
+def absolute(n):
+    if n > 0:
+        return n
     else: 
-        return -number
+        return -n
 
 # Írj egy sum_numbers() függvényt, ami paraméterül kap számok listáját,
 # és visszaadja a számok összegét!
@@ -57,15 +57,20 @@ def print_numbers(list):
     for i in list:
         print(i)
 
-numbers = [1, 2, 3, 4]
-print_numbers(numbers)
+if __name__ == "__main__":
 
+    numbers = [1, 2, 3, 4]
+    print_numbers(numbers)
 
-print(absolute(5))
-print(absolute(-10))
+    print(is_not_negative(5))
+    print(is_not_negative(0))
+    print(is_not_negative(-5))
 
-print(sum_numbers([1, 2, 3, 4, 2, 3]))
+    print(absolute(5))
+    print(absolute(-10))
 
-print(roll_dice())
+    print(sum_numbers([1, 2, 3, 4, 2, 3]))
 
-print(count_positive_numbers([-1, 1, -1, 1, -1, -1]))
+    print(roll_dice())
+
+    print(count_positive_numbers([-1, 1, -1, 1, -1, -1]))
