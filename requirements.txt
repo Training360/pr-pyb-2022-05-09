@@ -1,1 +1,4 @@
 pytest
+mariadb
+selenium
+webdriver-manager
